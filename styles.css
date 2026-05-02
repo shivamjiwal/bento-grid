@@ -1,0 +1,236 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    
+    background-color: hsl(0, 0%, 96%);
+}
+main{
+    display:grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-template-rows:repeat(3, auto);
+        gap:25px;
+        /*position:absolute;
+        left:10%;
+        right:10%;*/
+        margin:6% 10% 5% 10%;
+}
+
+.sec1{
+    grid-column: 2/4;
+    grid-row:1/2; 
+    background-color: hsl(254, 88%, 61%);
+    border-radius:10px;
+    box-shadow:2px 2px 2px hsl(254, 88%, 61%);
+    text-align:center;
+    width:680px;
+}
+
+h1{
+    font-size:74px;
+    width:88%;
+    color:white;
+    text-shadow:1px 1px 1px hsl(0, 0%, 96%);
+    margin:40px 0 20px 40px;
+    
+}
+
+.para{
+    color:hsl(0, 0%, 86%);
+    text-shadow:1px 1px 1px hsl(0, 0%, 80%);
+    letter-spacing:2px;
+    font-size:1.3em;
+    margin-bottom:40px;
+}
+
+strong{
+    color:hsl(39, 100%, 71%);
+    text-shadow:1px 1px 1px hsla(39, 100%, 71%, 0.15);
+}
+
+.sec2{
+    grid-column: 2/3;
+    grid-row:2/3;
+    background-color:hsl(0, 0%, 100%);
+    border-radius:10px;
+    box-shadow:0 10px 20px hsl(0, 0%, 95%);
+    padding:20px;
+    height:280px;
+}
+
+.sec2 p{
+    color:black;
+    text-shadow:1px 1px 1px hsla(0, 0%, 0%, 0.15);
+    font-size:1.95em;
+    width:60%;
+    font-weight:bold;
+}
+
+.sec2 img{
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+}
+
+.sec3{
+    grid-column: 3/4;
+    grid-row:2/3;
+    background-color: hsl(39, 100%, 71%);
+    border-radius:10px;
+    box-shadow:0 10px 20px hsl(0, 0%, 71%);
+    padding:20px;
+    height:280px;
+}
+
+.sec3 p{
+    color:black;
+    text-shadow:1px 1px 1px hsla(0, 0%, 0%, 0.15);
+    font-size:2em;
+    width:60%;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.sec3 img{
+     width:100%;
+     height:auto;
+}
+
+.sec4{
+    grid-column: 4/5;
+    grid-row:1/3;
+    background-color: hsl(254, 88%, 90%);
+    border-radius:10px;
+    box-shadow:0 10px 20px hsl(254, 88%, 90%);
+    padding:20px 0 0 20px;
+}
+
+.sec4 h2{
+    font-weight:bold;
+    font-size:1.7em;
+    color:black;
+    text-shadow:1px 1px 1px hsla(0, 0%, 0%, 0.15);
+    margin-bottom:20px;
+}
+
+.sec4 img{
+    height: 60%;
+    width:250px;
+    margin-bottom:20px;
+}
+
+.sec4 .para1{
+    font-size:1.1em;
+    width:90%;
+    color:hsl(0, 0%, 10%);
+    text-shadow:1px 1px 1px hsla(0, 0%, 96%, 0.15);
+}
+
+.sec5{
+    grid-column: 3/5;
+    grid-row:3/4;
+    background-color: hsl(254, 88%, 61%);
+    border-radius:10px;
+    box-shadow:1px 1px 2px hsl(0, 0%, 61%);
+    padding:20px 0 20px 20px;
+    display:flex;
+    gap:25px;
+}
+
+.sec5 img{
+    height:200px;
+    width:auto;
+}
+
+.sec5 p{
+    font-size:2.7em;
+    color:hsl(0, 0%, 100%);
+    text-shadow:1px 1px 1px hsl(0, 0%, 78%);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.sec6{
+    grid-column: 2/3;
+    grid-row:3/4;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:10px;
+    box-shadow:0 10px 20px hsl(0, 0%, 95%);
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+}
+
+.sec6 h2{
+    font-size:3.7em;
+    font-weight:bold;
+    text-shadow:1px 1px 1px hsla(0, 0%, 100%, 0.5);
+    margin-bottom:5px;
+}
+
+.sec6 img{
+    height:60px;
+    width:auto;
+    margin-right:80px;
+}
+
+.sec6 p{
+    font-size: 1.2em;
+    color:hsl(0, 0%, 6%);
+    text-shadow:1px 1px 1px hsl(0, 0%, 50%);
+    letter-spacing: 1.7px;;
+    margin-bottom:30px;
+}
+
+.sec7{
+    grid-column: 1/2;
+    grid-row:1/2;
+    background-color: hsl(31, 66%, 93%);
+    border-radius:10px;
+    box-shadow:0 10px 20px hsl(31, 66%, 90%);
+    padding:20px 10px 0px 30px;
+}
+
+.sec7 p{
+     font-size:2.2em;
+     color:black;
+     font-weight:bolder;
+     text-shadow:1px 1px 1px hsl(0, 0%, 20%);
+     margin-bottom:20px;
+     margin-top:50px;
+}
+
+.sec7 span{
+    color:hsl(254, 88%, 61%);
+    text-shadow:1px 1px 1px hsl(254, 88%, 91%);
+}
+
+.sec7 img{
+    height:80px;
+    width:auto;
+    margin-bottom:50px;
+}
+.sec8{
+    grid-column: 1/2;
+    grid-row:2/4;
+    background-color: hsl(39, 100%, 71%);
+    border-radius:10px;
+    box-shadow:0 10px 20px hsl(0, 0%, 71%);
+    padding:20px 20px 0 20px;
+}
+
+.sec8 p{
+    font-size:2.4em;
+    color:black;
+    text-shadow:1px 1px 1px hsl(0, 0%, 0%);
+    margin-bottom:70px;
+}
+
+.sec8 img{
+    width:100%;
+    height:50%;
+}
